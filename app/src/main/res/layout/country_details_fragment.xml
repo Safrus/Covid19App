@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/countryDetailsConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/countryCodeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Details"
+        android:textColor="@color/black"
+        android:textSize="62sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/provincyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amaranth"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/counterTextView"
+        app:layout_constraintStart_toStartOf="@+id/counterTextView"
+        app:layout_constraintTop_toBottomOf="@+id/counterTextView" />
+
+    <TextView
+        android:id="@+id/populationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amaranth"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/provincyTextView"
+        app:layout_constraintStart_toStartOf="@+id/provincyTextView"
+        app:layout_constraintTop_toBottomOf="@+id/provincyTextView" />
+
+    <TextView
+        android:id="@+id/lastUpdatedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amaranth"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/populationTextView"
+        app:layout_constraintStart_toStartOf="@+id/populationTextView"
+        app:layout_constraintTop_toBottomOf="@+id/populationTextView" />
+
+    <TextView
+        android:id="@+id/confirmedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amaranth"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/lastUpdatedTextView"
+        app:layout_constraintStart_toStartOf="@+id/lastUpdatedTextView"
+        app:layout_constraintTop_toBottomOf="@+id/lastUpdatedTextView" />
+
+    <TextView
+        android:id="@+id/deathsTextViiew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amaranth"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/confirmedTextView"
+        app:layout_constraintStart_toStartOf="@+id/confirmedTextView"
+        app:layout_constraintTop_toBottomOf="@+id/confirmedTextView" />
+
+    <TextView
+        android:id="@+id/recoveredTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amaranth"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/deathsTextViiew"
+        app:layout_constraintStart_toStartOf="@+id/deathsTextViiew"
+        app:layout_constraintTop_toBottomOf="@+id/deathsTextViiew" />
+
+    <TextView
+        android:id="@+id/counterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amaranth"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/countryCodeTextView"
+        app:layout_constraintStart_toStartOf="@+id/countryCodeTextView"
+        app:layout_constraintTop_toBottomOf="@+id/countryCodeTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
